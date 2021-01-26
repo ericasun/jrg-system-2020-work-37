@@ -1,6 +1,5 @@
 window.dom = {
     find(selector, scope){
-        console.log((scope || document).querySelectorAll(selector))
         return (scope || document).querySelectorAll(selector)
     },
     style(node, name, value){
